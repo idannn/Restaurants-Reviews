@@ -1,0 +1,167 @@
+.card {
+  /* max-width: 1000px; size container*/
+  /*margin: auto; loaction in the page*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 900px;
+  border-color: rgb(228, 220, 220);
+  border-width: 1px;
+  padding: 10px;
+}
+
+.img {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.details {
+  flex: 5;
+}
+
+.rating-row {
+  display: flex;
+}
+.rating-mg {
+  margin-right: 10px;
+}
+.price {
+  margin-left: 20px;
+}
+.landing {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurants {
+  flex: 5;
+  order: 1;
+}
+
+.bar {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(150, 97, 97);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap; /*if greater from screen size (row) open a new row*/
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: 5px auto; /*move to the center*/
+  border: 1px solid rgb(228, 220, 220);
+}
+
+.rest-img {
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  /*move to the center*/
+  margin: auto;
+  align-items: center;
+  /*move to the center*/
+}
+
+.myRating {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start; /*each item will take only the space he need*/
+  margin: 0.5px auto;
+  width: 900px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(228, 220, 220);
+}
+
+.textarea {
+  width: 400px;
+  padding: 10px;
+}
+.delete-bt {
+  margin-left: auto; /*move the left end*/
+}
+.review {
+  display: flex;
+  /*move to the center*/
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.item {
+  margin: 0.5px auto;
+  width: 900px;
+  padding: 10px;
+  border: 1px solid rgb(228, 220, 220);
+}
+
+.rating-label {
+  margin-bottom: 50px;
+}
+.review-rating {
+  flex: 2;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 900px;
+  padding: 10px;
+  font-size: 10;
+  font-weight: bold;
+  border: 1px solid rgb(228, 220, 220);
+}
+
+.add-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 5px auto; /*move to the center*/
+  border: 1px solid rgb(228, 220, 220);
+}
+
+.card-body {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.loaction {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px;
+}
+
+.link-details {
+  margin-left: 10px;
+}

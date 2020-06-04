@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://idan:idan@cluster0-lgbtp.mongodb.net/test?retryWrites=true&w=majority"
+}
