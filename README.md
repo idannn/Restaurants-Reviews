@@ -4,7 +4,7 @@ React Native App
 
 1.Cloning HomeAssignment:
 
-    git clone https://github.com/joseph851/Restaurants-Reviews.git
+    git clone https://github.com/idannn/Restaurants-Reviews.git
 
     cd Restaurants-Reviews
   
